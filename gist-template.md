@@ -5,6 +5,8 @@ Regular Expression Cheat Sheet for searching for passwords that conatin symbols 
 ## Summary
 
 With this regex expression I will be describing how you can use a Regex expression to find passwords with symbols in them so you can use this within your code as well.
+^(?=.*[@#$%^&+=])\S+$
+
 
 ## Table of Contents
 
@@ -46,4 +48,3 @@ With this regex expression I will be describing how you can use a Regex expressi
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
