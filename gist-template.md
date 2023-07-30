@@ -1,6 +1,7 @@
 # Title (replace with your title)
 
 Regular Expression Cheat Sheet for searching for passwords that conatin symbols in them.
+^(?=.*[@#$%^&+=])\S+$
 
 ## Summary
 
@@ -47,4 +48,7 @@ With this regex expression I will be describing how you can use a Regex expressi
 ### Look-ahead and Look-behind
 
 ## Author
+If you have any questions feel free to contact me at email victorjmora1@gmail.com
+https://github.com/victorjmora/Whats-That-RegEx.git
+https://github.com/victorjmora
 
