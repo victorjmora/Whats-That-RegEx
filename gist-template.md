@@ -1,24 +1,24 @@
 # Title (replace with your title)
 
-Introductory paragraph (replace this with your text)
+Regular Expression Cheat Sheet for searching for passwords that conatin symbols in them.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+With this regex expression I will be describing how you can use a Regex expression to find passwords with symbols in them so you can use this within your code as well.
 
 ## Table of Contents
 
-- [Anchors](#anchors)
-- [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
-- [Character Classes](#character-classes)
-- [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
-- [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [Anchors](#anchors) - This Regex has an anchor which is going to be the ^ carot that will be the string.
+- [Quantifiers](#quantifiers) - This uses a greedy qunatifier that with its abilities will find the most matches for  password that it can.
+- [OR Operator](#or-operator) None
+- [Character Classes](#character-classes) - The regex uses character classes to tell the expression to look for specific symbols within the password.
+- [Flags](#flags)- None
+- [Grouping and Capturing](#grouping-and-capturing) - This explains that the expression is saying whatever is in the square brackets to put in a single item
+- [Bracket Expressions](#bracket-expressions) -This explains that everything that is within the square bracketsis going to be used to figuring out the expression and what is in askinf for
+- [Greedy and Lazy Match](#greedy-and-lazy-match)  Greedy match is what it uses to be able to find as many matches as possible.
+- [Boundaries](#boundaries) - This expression is not bound by any specific word.
+- [Back-references](#back-references) - This is helping the password reference a pass with the letter S
+- [Look-ahead and Look-behind](#look-ahead-and-look-behind) - This means that the expression does have restrictions as long as you find the symbol within passwords
 
 ## Regex Components
 
